@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#ffaa00"
+    android:orientation="horizontal"
+    android:paddingLeft="64dp"
+    android:paddingRight="32dp"
+    android:padding="4dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayNameLabel"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        tools:text="wednesday"
+        android:layout_marginRight="15dp"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tempLabel"
+    android:textSize="20sp"
+    android:textColor="#ffffff"
+    tools:text="99"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text=" C"
+        />
+</LinearLayout>
